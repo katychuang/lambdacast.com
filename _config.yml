@@ -1,0 +1,24 @@
+title: LambdaCast Podcast
+email: contact@lambdacast.com
+description: LambdaCast is a podcast about functional programming for working developers. Our focus is to describe concepts using clear everyday language without watering anything down. If you have ever been curious about FP but were turned off by the jargon or unfamiliar concepts, this is the place to be. Thoughts, comments, critique? Send them to contact@lambdacast.com
+
+credits:
+Music is "Lively Lumpsucker" by Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 3.0 License
+Icon is a modification of "Communicator" by Juan Pablo Bravo (thenounproject.com/term/communicator/47500/). Licensed under Creative Commons: By Attribution 3.0 License
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://lambdacast.com"
+twitter_username: lambdacast
+github_username:
+soundcloud_username: lambda-cast
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
