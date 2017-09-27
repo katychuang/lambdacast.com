@@ -6,8 +6,10 @@ credits:
 Music is "Lively Lumpsucker" by Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 3.0 License
 Icon is a modification of "Communicator" by Juan Pablo Bravo (thenounproject.com/term/communicator/47500/). Licensed under Creative Commons: By Attribution 3.0 License
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://lambdacast.com"
+baseurl:        "" # the subpath of your site, e.g. /blog
+url:            "http://lambdacast.com"
+paginate:       5
+
 twitter_username: lambdacast
 github_username:
 soundcloud_username: lambda-cast
@@ -17,8 +19,28 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# About
+author:
+  name:         Lambda Cast
+  url:          http://lambdacast.com
+  email:        contact@lambdacast.com
+
+# Custom vars
+version:        
+github:
+  repo:         https://github.com/katychuang/lambdacast
